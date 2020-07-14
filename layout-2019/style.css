@@ -1,0 +1,254 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body{
+  background: #f2f2f2;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+input,
+button{
+  outline: 0;
+}
+
+.content{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+div.wrapper-content{
+  display: flex;
+}
+
+div.wrapper-content aside.menu{
+  width: 211px;
+  margin-top: 15px;
+  padding: 0 44px;
+}
+
+div.wrapper-content aside.menu nav ul{
+  list-style: none;
+}
+
+div.wrapper-content aside.menu nav ul li{
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+div.wrapper-content aside.menu nav ul li:first-child{
+  margin:0;
+}
+
+div.wrapper-content aside.menu nav ul li img{
+  margin-right: 10px;
+}
+
+div.wrapper-content aside.menu nav button{
+  height: 49px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  width: 211px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #3bb9e3;
+  border-radius: 40px;
+  margin-right: 20px;
+  margin-top: 44px;
+  background: #3bb9e3;
+}
+
+div.wrapper-content .timeline{
+  flex: 1;
+  width: 600px;
+  border-left: 1px solid #D8D8D8;
+  border-right: 1px solid #D8D8D8;
+}
+
+
+div.wrapper-content .timeline .avatar-info{
+  display: flex;
+  align-items: flex-start;
+  margin-left: 17px;
+}
+
+div.wrapper-content .timeline .avatar-info .profile{
+  display: flex;
+  flex-direction: column;
+}
+
+div.wrapper-content .timeline .avatar-info .avatar{
+ width: 134px;
+ height: 134px;
+ border-radius: 50%; 
+ border: 5px solid #fff;
+ margin-top: -80px;
+}
+
+div.wrapper-content .timeline .avatar-info strong{
+  margin-top: 10px;
+  font-size: 19px;
+  color: #14171A;
+  font-weight: 900px;
+  max-width: 518px;
+}
+
+div.wrapper-content .timeline .avatar-info span{
+  margin-top: 2px;
+  font-size: 13px;
+  color: #657786;
+}
+
+div.wrapper-content .timeline .avatar-info p{
+  margin-top: 15px;
+  font-size: 15px;
+  color: #14171A;
+  margin-bottom: 14px;
+}
+
+div.wrapper-content .timeline .avatar-info .calendar {
+  flex:1;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+div.wrapper-content .timeline .avatar-info a{
+  font-size: 13px;
+  color: #1DA1F2;
+}
+
+div.wrapper-content .timeline .avatar-info .info strong{
+  flex:1;
+  font-size: 15px;
+  color: #14171A;
+}
+
+div.wrapper-content .timeline .avatar-info .info span{
+  margin-right: 24px;
+  margin-left: 6px;
+  font-size: 15px;
+  color: #657786;
+}
+
+div.wrapper-content .timeline .avatar-info .calendar img{
+  width: 16px;
+  height: 16px;
+}
+
+div.wrapper-content .timeline .avatar-info .calendar strong{
+  font-size: 15px;
+  color: #657786;
+  font-weight: normal;
+}
+
+
+div.wrapper-content .timeline .avatar-info button{
+  height: 38px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  width: 250px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #3bb9e3;
+  border: 1px solid #3bb9e3;
+  border-radius: 40px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background:transparent;
+}
+
+div.wrapper-content .timeline ul li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px 15px;
+  position: relative;
+  font-size: 15px;
+}
+
+div.wrapper-content .timeline ul{
+  display: flex;
+  margin-right: 30px;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 32px;
+  border-bottom: 1px solid #E6ECF0;;
+}
+
+div.wrapper-content .timeline ul li.active{
+  color: #1DA1F2 
+}
+
+div.wrapper-content .timeline ul li.active::after{
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #3bb9e3
+  
+}
+
+div.wrapper-content .timeline header{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+div.wrapper-content .timeline header img{
+  margin-left: 10px;
+}
+
+div.wrapper-content .timeline header .info{
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.wrapper-content .timeline header .info strong{
+  font-size: 19px;
+  font-weight: 900px;
+  color: #14171A;
+}
+
+div.wrapper-content .timeline header .info span{
+  font-size: 13px;
+  font-weight: normal;
+  color: #657786;
+}
+
+div.wrapper-content .timeline div.banner{
+    height: 200px;
+    width: 100%;
+    background: #3bb9e3;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff ;
+    margin-top: 8px;
+}
+
+div.wrapper-content .widgets{
+  width: 350px;
+}
