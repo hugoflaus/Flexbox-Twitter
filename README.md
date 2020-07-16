@@ -1,6 +1,6 @@
-<h1>Recriando template do twitter utilizando flexbox</h1>
+<h2>Recriando template do twitter utilizando flexbox</h2>
 
-<img src="https://media.giphy.com/media/SMKiEh9WDO6ze/giphy.gif" width="100%" height="300">
+<img src="https://media.giphy.com/media/SMKiEh9WDO6ze/giphy.gif" width="300" height="150">
 
 ## Twitter 2018
 
